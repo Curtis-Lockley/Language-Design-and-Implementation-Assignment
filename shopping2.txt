@@ -1,0 +1,42 @@
+isRunning = True;
+shoppingList = [ ]
+
+while ( isRunning == True )
+{
+    item = input ( "Enter an item name ('exit' to finish shoppig or 'del' to delete an item): " )
+
+    if ( item == "exit" )
+    {
+        isRunning = False;
+    }
+
+    if ( item == "del" )
+    {
+        idx = input ( "Enter index to delete from (starts at 0): " )
+        shoppingList.delete( idx )
+    }
+    
+    
+    shoppingList.insert ( item )
+
+
+}
+
+idx = input ( "Choose an item to view by index: " )
+
+print ( shoppingList [ idx ] )
+
+while ( idx != "exit" )
+{
+  idx = input ( "Choose an item to view by index: " )
+
+  if ( idx != "exit" )
+  {
+
+  print ( shoppingList [ idx ] )
+  
+  }
+
+}
+
+print ( "Exiting....." )

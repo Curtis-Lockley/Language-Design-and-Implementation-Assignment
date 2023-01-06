@@ -1,0 +1,25 @@
+
+myFunc ()
+{
+    print ( "Hello From myFunc!" )
+    new myNum = 2
+    print ( "myNum in myFunc: " + myNum )
+    print ( "shared in myFunc: " + shared )
+
+    if ( False != True )
+    {
+
+     shared = 50
+     
+    }
+
+    return
+}
+
+shared = 3
+myNum = 1
+print ( "First" )
+myFunc ( )
+print ( "myNum out myFunc: " + myNum )
+print ( "shared out myFunc: " + shared )
+

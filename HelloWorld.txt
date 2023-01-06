@@ -1,0 +1,31 @@
+str1 = "Hello, "; str2 = "World"
+
+print ( str1 + str2 )
+
+print( "########## NUMBERS ##########" )
+
+print ( 8.5 / (2 * 9) - -3 )
+
+print ( (10 * 2) / 6 )
+
+print ( 2.5 + 2.5 - 1.25 )
+
+print( "########## BOOLS ##########" )
+
+print ( !( 5 - 4 > 3 * 2 == !False ) )
+
+print ( True == False )
+
+print ( True != False )
+
+print ( 5 < 10 )
+
+print ( True and False )
+
+print ( True or False )
+
+print ( False or ( 0 < 1 ) )
+
+myList = [10,20,30]
+
+print ( myList [0] )

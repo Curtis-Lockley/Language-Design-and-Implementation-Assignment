@@ -1,0 +1,60 @@
+exit = False;
+
+while ( exit == False )
+{  
+    num1 = input ("enter a number: " ); num2 = input ( "enter another number: " )
+    op = input ( "Enter operator (type 'exit' to exit): " )
+
+    if ( op == "+" ) 
+    {
+        result = num1 + num2;
+        print ( result )
+    }
+
+    
+    if ( op == "-" ) 
+    {
+        result = num1 - num2;
+        print ( result )
+    }
+
+    if ( op == "*" ) 
+    {
+        result = num1 * num2;
+        print ( result )
+    }
+
+
+    if ( op == "/" ) 
+    {
+        result = num1 / num2;
+        print ( result )
+    }
+
+    if ( op == "==" ) 
+    {
+        result = num1 == num2;
+        print ( result )
+    }
+
+    if ( op == ">" ) 
+    {
+        result = num1 > num2;
+        print ( result )
+    }
+
+    
+    if ( op == "<" ) 
+    {
+        result = num1 < num2;
+        print ( result )
+    }
+
+    
+    if ( op == "exit" ) 
+    {
+        exit = True
+
+    }
+
+}

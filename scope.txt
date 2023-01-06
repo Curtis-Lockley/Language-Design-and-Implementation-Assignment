@@ -1,0 +1,19 @@
+myNum = 10
+
+if ( True or False )
+{
+    new  myNum = 20
+    print( "Scope 2: " + myNum )
+    myNum = 25
+    print( "Scope 2 again: " + myNum )
+}
+
+print( "Scope 1: " + myNum )
+
+if ( True )
+{
+    myNum = 30
+    print( "Scope 3: " + myNum )
+}
+
+print( "Scope 1 again: " + myNum )

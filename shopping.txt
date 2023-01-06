@@ -1,0 +1,17 @@
+isRunning = True;
+shoppingList = ""
+
+while ( isRunning == True )
+{
+    item = input ( "Enter an item name: " )
+
+    if ( item == "exit" )
+    {
+        isRunning = False;
+    }
+
+    shoppingList = shoppingList + ", " + item
+
+}
+
+print ( shoppingList )
